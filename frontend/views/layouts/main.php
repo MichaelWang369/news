@@ -66,7 +66,7 @@ AppAsset::addScript($this,"/js/owl.carousel.js");
     <div class="footer" style="background:url(/images/banner/ft.png) no-repeat center center; background-size:cover;">
         <div class="wrap">
             <div class="left">
-                <h3>西安西户殡仪馆管理有限公司</h3>
+                <h3>西安某管理有限公司</h3>
 <?= MenuView::widget([
     'template' => "<p>{lis}<p>",
     'liTemplate'=> "<a href='{url}' target='{target}' >{title}</a>",
@@ -77,7 +77,7 @@ AppAsset::addScript($this,"/js/owl.carousel.js");
             </div>
             <div class="right">
                 <h3>客服热线：<span><?= Yii::$app->feehi->telphone; ?></span></h3>
-                <p>版权所有 © 2017 - 2019 西安西户殡仪馆管理有限公司</p> 
+                <p>版权所有 © 2017 - 2019 西安某管理有限公司</p> 
                 <p><a href="http://www.miitbeian.gov.cn" style='color:#FFFFFF'><?= Yii::$app->feehi->putRecord; ?></a></p>
             </div>
             <div class="clear"></div>
